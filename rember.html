@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title> page title </title>
+     <link rel="stylesheet" href="dddd.css">
+    </head>
+
+    <body>
+     <div class="countainer">
+            <div class="nav-wrapper">
+                <div class="left-side">
+                    <div class="nav-kink-wrapper active-nav-link">
+                        <a href="rember.html">Home</a>
+                     </div>
+                    <div class="nav-kink-wrapper">
+                     <a href="about.html"> About</a>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="brand">
+                        <div> MUSTAFA KAKASHI </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     <div class="content-wrapper">
+        <div class="portfolio-items-wrapper">
+            <div class="portfolio-item-wrapper"> 
+                <div class="portfolio-img-background" style="background-image :url(images/mustafa.JPG)"></div>   
+                <div class="img-text-wrapper">
+                    
+                    <div class="subtitle">
+                        here is the KAKASHI but irl wittout mask
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item-wrapper"> 
+                <div class="portfolio-img-background" style="background-image :url(images/AMER.jpg)"></div>   
+                <div class="img-text-wrapper">
+                    
+                    <div class="subtitle">
+                        Here is ATHE MOST toxic thing around the world
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item-wrapper"> 
+                <div class="portfolio-img-background" style="background-image :url(images/ANWAR.jpg)"></div>   
+                <div class="img-text-wrapper">
+                    
+                    <div class="subtitle">
+                      BROTHER OF TOXIC BUT  BATTER THAN HIM
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item-wrapper"> 
+                <div class="portfolio-img-background" style="background-image :url(images/ALOOSH.jpg)"></div>   
+                <div class="img-text-wrapper">
+                    
+                    <div class="subtitle">
+                        women slaves SUPERR SIMP
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item-wrapper"> 
+                <div class="portfolio-img-background" style="background-image :url(images/HASSAN.jpg)"></div>   
+                <div class="img-text-wrapper">
+                    
+                    <div class="subtitle">
+                        If YOU say hello to him, he gets upset
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item-wrapper"> 
+                <div class="portfolio-img-background" style="background-image :url(images/ALI\ HD.jpg)"></div>   
+                <div class="img-text-wrapper">
+                    
+                    <div class="subtitle">
+                        Beware and stay away FROM HIM
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item-wrapper"> 
+                <div class="portfolio-img-background" style="background-image :url(images/ABOOD.jpg)"></div>   
+                <div class="img-text-wrapper">
+                    
+                    <div class="subtitle">
+                        HE  EAT anything IF EVEN  he will eat you
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+     </div>
+
+    </body>
+    <script>
+        const portfolioitems = document .querySelectorAll('.portfolio-item-wrapper')
+        portfolioitems.forEach(portfolioitem=> {
+            portfolioitem.addEventListener ('mouseover',() => {
+            
+                portfolioitem.childNodes[1].classList.add('img-darken');
+
+
+            } )
+            portfolioitem.addEventListener('mouseout', () => {
+                
+                portfolioitem.childNodes[1].classList.remove('img-darken');
+            } )
+        })
+    </script>
+</html>

@@ -1,0 +1,105 @@
+body {
+    margin:0px ;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ; }
+
+/*nav style*/
+<style>
+.Noto Sans Arabic {
+font-style: Noto Sans Arabic;   }
+</style>
+.Noto Sans Arabic {
+    font-style: Noto Sans Arabic;}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.left-side{
+    display: flex;
+}
+.nav-wrapper > .left-side > div {
+   
+margin-right: 20px;
+font-size: 0.9em;
+text-transform:uppercase;
+
+}
+.nav-kink-wrapper {
+    height: 20px; 
+    border-bottom : 1px solid transparent;
+    transform: border-bottom 0.5s;
+}
+.nav-kink-wrapper a{
+    color:  red;
+    text-decoration: none;
+    transition: color 1s ;
+}
+.nav-kink-wrapper :hover {
+    border-bottom:1px solid blue;
+}
+.active-nav-link {
+border-bottom: 1px solid black ;
+}
+.active-nav-link a {
+    color: black !important;
+}
+/*portfolio styles*/
+.portfolio-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-item-wrapper{
+    position: relative;
+}
+ .portfolio-img-background {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+    .img-text-wrapper {
+      position: absolute ;
+      top: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 200px; 
+      text-align: center;
+      padding-left:100px;
+      padding-right: 100px;
+
+    }
+    .img-text-wrapper:hover .subtitle {
+        transition: 1s ;
+        color: white;
+        color: transparent;
+
+    } 
+    .img-text-wrapper:hover .subtitle {
+        font-size: 600;
+        color: gold;
+    }
+    .img-darken {
+        transition: 1s;
+        filter: brightness(20%);
+    }
+    
+/*ABOUT PAGES*/
+.four-column-wrapper {
+    display: grid;
+    grid-template-columns:  1fr 1fr ;
+
+}
+.profile-image-wrapper img {
+ width: 100%;
+}
+.prfile-content-wrapper {
+    padding: 30px;
+}
+.profile-content-wrapper h1 {
+    color: lightgreen;
+}
