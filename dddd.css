@@ -6,12 +6,6 @@ body {
     grid-template-columns: 1fr 1fr ; }
 
 /*nav style*/
-<style>
-.Noto Sans Arabic {
-font-style: Noto Sans Arabic;   }
-</style>
-.Noto Sans Arabic {
-    font-style: Noto Sans Arabic;}
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
@@ -62,7 +56,7 @@ border-bottom: 1px solid black ;
     background-repeat: no-repeat;}
     .img-text-wrapper {
       position: absolute ;
-      top: 0px;
+      top: 50px;
       display: flex;
       flex-direction: column;
       justify-content: center;
