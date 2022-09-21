@@ -1,4 +1,5 @@
 body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin:0px ;
 }
 .container {
@@ -9,7 +10,7 @@ body {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 40px;
 }
 .left-side{
     display: flex;
@@ -17,12 +18,16 @@ body {
 .nav-wrapper > .left-side > div {
    
 margin-right: 20px;
-font-size: 0.9em;
+font-size: 1.3em;
 text-transform:uppercase;
+}
+.nav-wrapper > .right-side > div{
+    font-family: monospace;
+    font-size: 2em;
 
 }
 .nav-kink-wrapper {
-    height: 20px; 
+    height: 30px; 
     border-bottom : 1px solid transparent;
     transform: border-bottom 0.5s;
 }
@@ -32,7 +37,7 @@ text-transform:uppercase;
     transition: color 1s ;
 }
 .nav-kink-wrapper :hover {
-    border-bottom:1px solid blue;
+    border-bottom:1px white;
 }
 .active-nav-link {
 border-bottom: 1px solid black ;
